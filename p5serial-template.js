@@ -53,7 +53,7 @@ function serialEvent() {
   // read a byte from the serial port, convert it to a number:
   inString = serial.readStringUntil('\r\n');
   console.log(inString)
-
+// ---- for motion control purpose. Manipulating the inString from arduino with boolean. 
   if(inString == "Play/Pause"){
     pause = !pause
     // console.log(pause)
@@ -79,7 +79,7 @@ function serialEvent() {
   if(inString == 'Volume Mode'){
     volMode = true
   }
-  
+  // ----- for volume mode, map out user hand move distance into volume range, and apply to current song. 
   volume = split(inString, ',');
   // console.log(volume)
   if(volume[0] == 'Volume Up'){
