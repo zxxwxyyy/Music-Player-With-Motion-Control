@@ -4,7 +4,7 @@ const int EchoPin = 10;
 // ----- for right sensor input
 const int TriggerPin1 = 12;
 const int EchoPin1 = 11;
-
+// ----- for volume sensor
 const int TriggerPin2 = 6;
 const int EchoPin2 = 5;
 int Distance;
@@ -124,6 +124,7 @@ void loop() {
 }
 
 // ----- sensor for volume mode, volume goes up / down based on distance user hand move
+// ----- 20 is good number to prevent interrupt from top right sensor
   else if(distVol < 20){
   // delay(1500);
   Serial.println("Volume Mode");
@@ -165,7 +166,7 @@ void getDistance(int Trigger, int Echo){
   Duration = pulseIn(Echo, HIGH);
   Distance = Duration * 0.034 / 2;
   
-  // ----- set the maximum range to 70 to prevent unintended activation, also it helps to get proper read. 
+  // ----- set the maximum range to 50 to prevent unintended activation, also it helps to get proper read. 
   if (Distance > 50){
     Distance = 50;
   };
