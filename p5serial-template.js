@@ -104,36 +104,7 @@ function serialEvent() {
     }
     song[i].setVolume(songVol);
   }
-  // console.log(songVol)
-  // }
 
-// ----- using split() function to seperate to data into a array, then use if statement for different condition
-//   if (inString.length > 0 ) {
-//     sensors = split(inString, ',');    
-// // ----- using map function to map out potentiometer from 0 - 255 into my map size, one for horizontal moving and one for vertical moving. 
-//      posX = map(sensors[0], 0, 255, 0, windowWidth - 300);
-//      posY = map(sensors[1], 0, 255, 0, windowHeight);
-// // ----- I noticed that arduino can't not interact with the dom element I created before, so I use photocell and switch to create buttons to bring back the function I offered. 
-// // ----- I use the photocell sensor for the fire button. if user tap on it, the value would be mostly under 1 in all situation because I mapped it out. 
-// // ----- If I didn't mapped it out here, I notice it will have accident touch, it's hard to set a value for different light situation. But after I mapped it, it works well. 
-//     if(sensors[2] <= 1){
-//        isFired = true;
-//     }else{
-//       isFired = false;
-//     }
-//     if(sensors[3] < 1){
-//       isReset = !isReset;
-//     }else{
-//       isReset = false;
-//     }
-// // ----- I use a switch here for changing different mode. I put all the mode in an array as default, easy, medium and hard. When user click the button, it will change the mode through the array. 
-//     if(sensors[4] > 0){
-//       j = (j + 1)% mode.length
-//       isMoving = true;
-
-//     }
-
-// }
 }
 
 function serialError(err) {
