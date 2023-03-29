@@ -3,4 +3,5 @@ The Music Player is a final project for Creative Coding course that combines a f
 Two different visual scenes are available for users to enjoy and enhance their music experience. The project was completed in just 2 weeks, providing a fast and efficient solution to a common problem: the inability to control your music player when your hands are occupied. With The Music Player's accessibility mode, users can now enjoy their music anytime, anywhere, and in any condition.
 
 Watch the video here: https://youtu.be/REj6sknVT5g
+
 Try it here: https://zxxwxyyy.github.io/Music-Player-With-Motion-Control/
