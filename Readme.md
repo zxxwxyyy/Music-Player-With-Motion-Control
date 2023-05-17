@@ -7,6 +7,9 @@ The Music Player is an innovative project that offers users an interactive and v
 
 [![Demo video](https://img.youtube.com/vi/REj6sknVT5g/0.jpg)](https://www.youtube.com/watch?v=REj6sknVT5g)
 
+## Timeline
+This project was completed in a span of 2 weeks.
+
 ## Features
 - Interactive music player
 - Dynamic sound visual effects
@@ -38,5 +41,3 @@ The user-testing phase highlighted the need for feedback when the hand is detect
 - Integrated mouseDragged function for the volume bar.
 - Created a circular animation when Arduino sends back "hand detected".
 
-## Timeline
-This project was completed in a span of 2 weeks.
