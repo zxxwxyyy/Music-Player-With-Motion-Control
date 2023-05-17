@@ -1,4 +1,4 @@
-# The Music Player
+# Music Player With Motion Control
 The Music Player is an innovative project that offers users an interactive and visually engaging music player. It features a unique sound visual effect in the middle of the screen, which reacts dynamically to the audio being played.
 
 [Demo](https://zxxwxyyy.github.io/Music-Player-With-Motion-Control/)
